@@ -1,0 +1,31 @@
+{
+  "name": "namasteyreact",
+  "version": "1.0.0",
+  "description": "Namastey React",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viswajithmuralee/NamasteyReactStudy.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Viswajith Muraleedharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viswajithmuralee/NamasteyReactStudy/issues"
+  },
+  "homepage": "https://github.com/viswajithmuralee/NamasteyReactStudy#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "browserlist": [
+    "last 2 Chrome versions",
+    "last 2 Safari versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions"
+  ]
+  
+}
