@@ -1,7 +1,13 @@
-const parent = React.createElement("div", { id: "parent" }, 
-    React.createElement("div", { id: "child" }, 
-        [React.createElement("h1", { id: "h1tag" }, "I a Viswajith"), React.createElement("h2", { id: "h2tag" }, "We")]))
-
+import React from "react";
+import ReactDOM from "react-dom/client";        
+const Title =()=> <h1 className="head">Hello World from React 🚀</h1>;
+const Comp =()=>  <h2>This is a React Component🐯</h2>;
+const parent = (
+  <div id="parent">
+    <Title></Title>
+    <Comp />
+  </div>
+);
 const rootEl = document.getElementById("root");
 const root = ReactDOM.createRoot(rootEl);
 root.render(parent);

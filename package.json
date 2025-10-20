@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Namastey React",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/viswajithmuralee/NamasteyReactStudy#readme",
   "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-react": "^7.27.1",
     "parcel": "^2.16.0"
   },
   "browserlist": [
@@ -26,6 +30,9 @@
     "last 2 Safari versions",
     "last 2 Firefox versions",
     "last 2 Edge versions"
-  ]
-  
+  ],
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
 }
